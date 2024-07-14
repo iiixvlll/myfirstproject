@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pico.min.css">
+</head>
+
+<body>
+  <header class="container">
+    <nav>
+      <ul>
+        <li><strong>Jojo</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+      </ul>
+    </nav>
+</header>
+
+<main class="container">
+  <h1>Contact us</h1>
+  <form>
+    <fieldset>
+      <label>
+        First name
+        <input
+          name="first_name"
+          placeholder="First name"
+          autocomplete="given-name"
+        />
+      </label>
+      <label>
+        Email
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          autocomplete="email"
+        />
+    </label>
+    <label>
+        Message
+        <textarea
+        name="bio"
+        placeholder="Write a professional short bio..."
+        aria-label="Professional short bio"
+        rows="6"
+      ></textarea>
+      </label>
+    </fieldset>
+  
+    <input
+      type="submit"
+      value="Subscribe"
+    />
+    
+  </form>
+    
+</main>
+</body>
+
+</html>
